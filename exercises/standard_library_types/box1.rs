@@ -15,7 +15,6 @@
 // Note: the tests should not be changed
 //
 // Execute `rustlings hint box1` or use the `hint` watch subcommand for a hint.
-// I AM NOT DONE
 #[derive(PartialEq, Debug)]
 pub enum List {
     Cons(i32, Box<List>),
